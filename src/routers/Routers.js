@@ -8,18 +8,24 @@ import Blog from "../pages/Blog";
 import BlogDetails from "../pages/BlogDetails";
 import NotFound from "../pages/NotFound";
 import Contact from "../pages/Contact";
+import Services from "../pages/Services";
+import Team from "../pages/Team";
+import Service_page from "../pages/Service_page";
 
 const Routers = () => {
   return (
     <Routes>
       <Route path="/" element={<Navigate to="/home" />} />
       <Route path="/home" element={<Home />} />
+      <Route path="/service" element={<Services />} />
       <Route path="/about" element={<About />} />
       <Route path="/cars" element={<CarListing />} />
+      <Route path="/services" element={<Service_page />} />
       <Route path="/cars/:slug" element={<CarDetails />} />
       <Route path="/blogs" element={<Blog />} />
       <Route path="/blogs/:slug" element={<BlogDetails />} />
       <Route path="/contact" element={<Contact />} />
+      <Route path="/our team" element={<Team />} />
       <Route path="*" element={<NotFound />} />
     </Routes>
   );

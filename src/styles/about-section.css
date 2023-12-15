@@ -2,6 +2,14 @@
   color: #f9a826;
   font-size: 1.1rem;
 }
+.aboutimg{
+  border-radius: 50%;
+  border: 3px solid gray;
+}
+.section__description{
+  color: black !important;
+  font-weight: 600;
+}
 
 @media only screen and (max-width: 992px) {
   .about__section-content h2 {
@@ -24,10 +32,16 @@
   .about__img {
     margin-top: 30px;
   }
+  .aboutimg{
+    display: none;
+  }
 }
 
 @media only screen and (max-width: 576px) {
   .about__section {
     margin-top: 280px;
+  }
+  .aboutimg{
+    display: none;
   }
 }

@@ -1,44 +1,44 @@
 const serviceData = [
   {
     id: 1,
-    title: "City Transfer",
+    title: "INTEGRATED SOLUTIONS",
     icon: "ri-map-pin-2-line",
-    desc: "Tempor tempor sadipscing vero lorem sea, invidunt sed et eos ipsum et erat. Dolor ut duo sadipscing lorem. Gubergren gub",
+    desc: "Our teams are trained to advise clients on multi-dimensional areas to ensure compliance to all areas of regulations such as tax, accounting, audit, and secretarial.",
   },
 
   {
     id: 2,
-    title: "Whole  City Tour",
+    title: "TECHNOLOGY AS PART OF SERVICE",
     icon: "ri-community-line",
-    desc: "Tempor tempor sadipscing vero lorem sea, invidunt sed et eos ipsum et erat. Dolor ut duo sadipscing lorem. Gubergren gub",
+    desc: "Each part of our service delivery model incorporates the use of cutting-edge technology to ensure effciency, accuracy and data security.",
   },
 
   {
     id: 3,
-    title: "Unlimited Miles Car Rental",
+    title: "ADAPTIVE SOLUTIONS",
     icon: "ri-roadster-line",
-    desc: "Tempor tempor sadipscing vero lorem sea, invidunt sed et eos ipsum et erat. Dolor ut duo sadipscing lorem. Gubergren gub",
+    desc: "Our services are designed so that they can be tailored for clients of any size.",
   },
 
   {
     id: 4,
-    title: "Fast & Easy Booking",
+    title: "LOCATED CENTRALLY",
     icon: "ri-timer-flash-line",
-    desc: "Tempor tempor sadipscing vero lorem sea, invidunt sed et eos ipsum et erat. Dolor ut duo sadipscing lorem. Gubergren gub",
+    desc: "Modern Office with an emphasis on openness and communication located in the heart of Dhaka – Banani.",
   },
 
   {
     id: 5,
-    title: "Many Pickup Locations",
+    title: "COST EFFECTIVE",
     icon: "ri-map-pin-line",
-    desc: "Tempor tempor sadipscing vero lorem sea, invidunt sed et eos ipsum et erat. Dolor ut duo sadipscing lorem. Gubergren gub",
+    desc: "Our services are more cost effective than maintaining an in-house team.",
   },
 
   {
     id: 6,
-    title: "Airport Transfer",
+    title: "IN-DEPTH RESEARCH",
     icon: "ri-flight-takeoff-line",
-    desc: "Tempor tempor sadipscing vero lorem sea, invidunt sed et eos ipsum et erat. Dolor ut duo sadipscing lorem. Gubergren gub",
+    desc: "Clients get access to in-depth research, regular updates on changes in regulations, and high-quality publications.",
   },
 ];
 

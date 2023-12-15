@@ -15,7 +15,7 @@ export const navLinks = [
   },
   {
     path: "/about",
-    display: "About BRAMA",
+    display: "About Us",
     dorp: [
       {
         path: "/",
@@ -28,16 +28,16 @@ export const navLinks = [
     ],
   },
   {
-    path: "/secretariat",
-    display: "Secretariat",
-  },
-  {
-    path: "/committees",
-    display: "Committees",
+    path: "/our team",
+    display: "Our Team",
   },
   {
     path: "/blogs",
     display: "Blog",
+  },
+  {
+    path: "/services",
+    display: "Services",
   },
   {
     path: "/contact",

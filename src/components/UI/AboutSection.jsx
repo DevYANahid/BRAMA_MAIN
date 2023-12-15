@@ -10,18 +10,19 @@ const AboutSection = ({ aboutClass }) => {
       className="about__section"
       style={
         aboutClass === "aboutPage"
-          ? { marginTop: "0px" }
+          ? { marginTop: "30px" }
           : { marginTop: "0px" }
       }
     >
       <Container>
         <Row>
           <Col lg="6" md="6">
-            <div className="about__section-content">
-              <h4 className="section__subtitle">About Us :</h4>
-              <h2 className="section__title">Introduction to the BRAMA</h2>
+            <div className="about__section-content mt-20">
+              <h4 className="section__subtitle">About Us :</h4><br />
+              <h4 className="section__subtitle">Founder Partner</h4>
+              <h2 className="section__title">Fazlul Karim Aney</h2>
               <p className="section__description">
-              The  Bangladesh Refrigation & Airconditioning  Merchents Association(BRAMA) is the apex trade organization of Bangladesh playing a pivotal role in consultative and advisory capacity, safeguarding the interest of...
+              At ACE Advisory we not only endeavor to simplify complex regulations <br /> and processes for clients, but also assist them in managing their <br /> operations to remain compliant in a cost effective manner.
               </p>
 
               <div className="about__section-item d-flex align-items-center">
@@ -55,7 +56,7 @@ const AboutSection = ({ aboutClass }) => {
 
           <Col lg="6" md="6">
             <div className="about__img">
-              <img src={aboutImg} alt="" className="w-100" />
+              <img src={aboutImg} alt="" className="aboutimg w-100" />
             </div>
           </Col>
         </Row>

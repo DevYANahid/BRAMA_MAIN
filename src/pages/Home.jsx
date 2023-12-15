@@ -3,6 +3,7 @@ import HeroSlider from "../components/UI/HeroSlider";
 import Helmet from "../components/Helmet/Helmet";
 import { Container, Row, Col } from "reactstrap";
 import FindCarForm from "../components/UI/FindCarForm";
+import Services from "./Services";
 import AboutSection from "../components/UI/AboutSection";
 import ServicesList from "../components/UI/ServicesList";
 import carData from "../assets/data/carData";
@@ -32,8 +33,13 @@ const Home = () => {
       <section className="p-0 hero__slider-section">
         <HeroSlider />
       </section>
+
       {/* =========== about section ================ */}
       <AboutSection />
+
+      {/* ========== services section ============ */}
+      <Services />
+
       {/* ========== services section ============ */}
       <section>
         <Container>
@@ -53,7 +59,7 @@ const Home = () => {
           <Row>
             <Col lg="12" className="text-center mb-5">
               <h6 className="section__subtitle">Come with</h6>
-              <h2 className="section__title">Hot Offers</h2>
+              <h2 className="section__title">Our Meeting</h2>
             </Col>
 
             {carData.slice(0, 6).map((item) => (
@@ -63,7 +69,6 @@ const Home = () => {
         </Container>
       </section>
       {/* =========== become a driver section ============ */}
-      <BecomeDriverSection />
 
       {/* =========== testimonial section =========== */}
       <section>

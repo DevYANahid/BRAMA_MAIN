@@ -40,14 +40,13 @@ const Footer = () => {
           <Col lg="4" md="4" sm="12">
             <div className="logo footer__logo">
               <h1>
-                <Link to="/home" className=" d-flex align-items-center gap-2">
-                  <img src="/logo.png" alt="logo" />
+                <Link to="/" className=" d-flex align-items-center gap-2 mb-20">
+                <h1 style={{color:"red", fontWeight:700, paddingTop:"30%"}}>MK <span style={{fontWeight:600}}>Associate</span></h1>
+                
                 </Link>
               </h1>
             </div>
             <p className="footer__logo-content">
-              BANGLADESH REFRIGERATION & AIRCONDITIONING MERCHANTS ASSOCIATION
-              (BRAMA)
             </p>
           </Col>
 

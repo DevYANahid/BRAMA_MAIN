@@ -1,7 +1,7 @@
 import React from "react";
-import "../../styles/header.css";
-import { Container, Row, Col } from "reactstrap";
 import { Link } from "react-router-dom";
+import { Col, Container, Row } from "reactstrap";
+import "../../styles/header.css";
 const Topbar = () => {
   return (
     <div className="header__top">

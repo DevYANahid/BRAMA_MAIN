@@ -23,7 +23,8 @@ const HeroSlider = () => {
         <Container>
           <div className="slider__content ">
             <h4 className="text-light mb-3">For Contact A Day</h4>
-            <h1 className="text-light mb-4">Mohammad Asaduzzaman takes charge as the President of BRAMA</h1>
+            <h1 className="mb-4" style={{color:"red"}}>MK ASSOCIATE</h1>
+            <h3 className="text-light mb-4"> very own cloud-based SaaS solution to all your HR & payroll needs.</h3>
 
             <button className="btn reserve__btn mt-4">
               <Link to="/cars"> For Details</Link>
@@ -36,7 +37,8 @@ const HeroSlider = () => {
         <Container>
           <div className="slider__content ">
             <h4 className="text-light mb-3">For Given A Day</h4>
-            <h1 className="text-light mb-4">BRAMA urges expats to invest in Bangladesh to strengthen economy</h1>
+            <h1 className="mb-4" style={{color:"red"}}>ANDERSEN</h1>
+            <h3 className="text-light mb-4">  Establishes Presence in Bangladesh with Collaborating Firm ACE Advisory.</h3>
 
             <button className="btn reserve__btn mt-4">
               <Link to="/cars">For Details</Link>
@@ -49,7 +51,8 @@ const HeroSlider = () => {
         <Container>
           <div className="slider__content ">
             <h4 className="text-light mb-3">For Given A Day</h4>
-            <h1 className="text-light mb-4">BRAMA urges expats to invest in Bangladesh to strengthen economy</h1>
+            <h1 className="mb-4" style={{color:"red"}}>We Are</h1>
+            <h3 className="text-light mb-4">ISAE 3000 Type 1 Certified!</h3>
 
             <button className="btn reserve__btn mt-4">
               <Link to="/cars">For Details</Link>

@@ -21,28 +21,34 @@ const About = () => {
           <Row>
             <Col lg="6" md="6" sm="12">
               <div className="about__page-img">
-                <img src={driveImg} alt="" className="w-100 rounded-3" />
+                <img src={driveImg} alt="" className=" aboutimg w-100" />
               </div>
             </Col>
 
             <Col lg="6" md="6" sm="12">
-              <div className="about__page-content">
-                <h2 className="section__title">
-                  We Are Committed To Provide Safe Ride Solutions
-                </h2>
+              <div className="about__page-content mt-20 pl-20">
+                <h2 className="section__title">We Are Committed To :</h2>
 
                 <p className="section__description">
-                  Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                  Eveniet veniam assumenda aperiam accusantium ex autem
-                  perferendis repellendus nostrum delectus. Nemo et dolore est
-                  tempore rem minima adipisci magni dolorum ipsam.
-                </p>
-
-                <p className="section__description">
-                  Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                  Eveniet veniam assumenda aperiam accusantium ex autem
-                  perferendis repellendus nostrum delectus. Nemo et dolore est
-                  tempore rem minima adipisci magni dolorum ipsam.
+                  ACE Advisory grew from a vision to create a world-class
+                  outsourcing and professional services firm that could service
+                  clients across the world and in Bangladesh. Started by two
+                  dynamic individuals, the firm has in almost a decade of
+                  operations, established a branch which is associated with high
+                  quality professional services and in-depth insight into
+                  regulatory matters. Led by some of best minds in accounting,
+                  payroll, tax, and consulting, ACE Advisory employs people with
+                  a diverse range of skills working collaboratively to put the
+                  client first. Our people are encouraged to think beyond the
+                  obvious and combines strategic thinking, innovative
+                  technology, and rigorous research methods to provide advice
+                  that doesn’t just solve problems but takes developments to the
+                  next level. We focus on providing an integrated set of
+                  multidisciplinary services with our deep local and global
+                  knowledge. Whether a client wants to setup in Bangladesh or
+                  outsource its payroll function, we provide the support by
+                  combining deep sector expertise, local insight, and
+                  technology.
                 </p>
 
                 <div className=" d-flex align-items-center gap-3 mt-4">
@@ -52,7 +58,7 @@ const About = () => {
 
                   <div>
                     <h6 className="section__subtitle">Need Any Help?</h6>
-                    <h4>+00123456789</h4>
+                    <h4>+880 1616140044</h4>
                   </div>
                 </div>
               </div>
@@ -60,8 +66,6 @@ const About = () => {
           </Row>
         </Container>
       </section>
-
-      <BecomeDriverSection />
 
       <section>
         <Container>
