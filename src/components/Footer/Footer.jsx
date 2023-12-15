@@ -67,11 +67,11 @@ const Footer = () => {
             <div className="mb-4">
               <h5 className="footer__link-title mb-4">Head Office</h5>
               <p className="office__info">
-                H-64/7 (1st Floor), Amtoli, Mohakhali, Dhaka-1214, Bangladesh
+                H-64/7 (1st Floor), Dhaka-1214, Bangladesh
               </p>
-              <p className="office__info">Phone : +880-2222262343</p>
+              <p className="office__info">Phone : +880-1616140044</p>
 
-              <p className="office__info">E-mail : brama1990.org@gmail.com</p>
+              <p className="office__info">E-mail : fazlul.karim.mk.associate@gmail.com</p>
 
               <p className="office__info">Office Time: 10am - 7pm</p>
             </div>
